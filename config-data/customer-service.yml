@@ -9,9 +9,6 @@ server:
 # http://localhost:8092/h2-console
 # Enabling H2 Console
 spring:
-  cloud:
-    config:
-      enabled: false
   h2:
     console:
       enabled: true
