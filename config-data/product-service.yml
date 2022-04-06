@@ -9,9 +9,6 @@ server:
 # http://localhost:8091/h2-console
 # Enabling H2 Console
 spring:
-  cloud:
-      config:
-        enabled: false
   h2:
     console:
       enabled: true
@@ -30,7 +27,6 @@ spring:
   # ===============================
   jpa:
     show-sql: true
-    defer-datasource-initialization: true
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
